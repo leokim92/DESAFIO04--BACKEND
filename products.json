@@ -1,0 +1,81 @@
+[
+  {
+    "title": "Owl",
+    "description": "Hunts in dark, Silence killer",
+    "code": "OB001",
+    "price": 2451,
+    "status": true,
+    "category": "Bird",
+    "thumbnail": "Working in progress"
+  },
+  {
+    "title": "Eagle",
+    "description": "Bloody Hunter",
+    "code": "EBH003",
+    "price": 24121351,
+    "status": true,
+    "category": "bird Assassin",
+    "thumbnail": "Working in progress",
+    "id": 1
+  },
+  {
+    "title": "Ostrich",
+    "description": "Speed",
+    "code": "OS01",
+    "price": 1547,
+    "status": true,
+    "category": "Runner",
+    "thumbnail": "Working in progress",
+    "id": 4
+  },
+  {
+    "title": "Penguin",
+    "description": "Cold Swimmer",
+    "code": "PCS 008",
+    "price": 2194,
+    "status": true,
+    "category": "Fat",
+    "thumbnail": "Working in progress",
+    "id": 6
+  },
+  {
+    "title": "KIWI",
+    "description": "Cute Cant Fly",
+    "code": "KCCF 009",
+    "price": 19436,
+    "status": true,
+    "category": "Small long beak",
+    "thumbnail": "Working in progress",
+    "id": 7
+  },
+  {
+    "title": "Parrot",
+    "description": "Speak Too Much",
+    "code": "PSTM 010",
+    "price": 15478,
+    "status": true,
+    "category": "Talking bird",
+    "thumbnail": "Working in progress",
+    "id": 8
+  },
+  {
+    "title": "Seagul",
+    "description": "Love Fish",
+    "code": "SLF 011",
+    "price": 21549,
+    "status": true,
+    "category": "Flying on Beach",
+    "thumbnail": "Working in progress",
+    "id": 9
+  },
+  {
+    "title": "Vulture",
+    "description": "Big Meat Lover",
+    "code": "VBML 012",
+    "price": 33659,
+    "status": true,
+    "category": "Scavenger",
+    "thumbnail": "Working in progress",
+    "id": 10
+  }
+]

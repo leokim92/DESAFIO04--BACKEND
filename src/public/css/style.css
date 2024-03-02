@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    font-size: 4em;
+  }
+  
+  .product-list {
+    display: flex;
+    gap: 2em;
+  }
+  
+  .product-card {
+    border: 2px solid black;
+    padding: 20px;
+    width: 200px;
+  }
+  
+  form {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+  }
+  
