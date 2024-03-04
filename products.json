@@ -77,5 +77,25 @@
     "category": "Scavenger",
     "thumbnail": "Working in progress",
     "id": 10
+  },
+  {
+    "title": "Pigeon",
+    "state": true,
+    "category": "Fly in City",
+    "description": "Flying Rats",
+    "price": 1,
+    "code": "PFICFR013",
+    "stock": 999999,
+    "id": 11
+  },
+  {
+    "title": "Shoebill",
+    "state": true,
+    "category": "Flying Dinosaur",
+    "description": "Scary Flying Dinosaur",
+    "price": 94586447,
+    "code": "SFDSFD014",
+    "stock": 15242,
+    "id": 12
   }
 ]

@@ -2,8 +2,14 @@ console.log("connected");
 
 const socket = io();
 
+const submitButton = document.getElementById("submit-button");
+submitButton.addEventListener("click", (event) => {
+  event.preventDefault();
+  addProduct();
+});
+
 socket.on("products", (data) => {
-  const listaProductos = document.getElementById("listaProductos");
+  const listaProductos = document.getElementById("productsList");
   listaProductos.innerHTML = "";
   data.forEach((products) => {
     listaProductos.innerHTML += `
@@ -22,12 +28,6 @@ socket.on("products", (data) => {
       deleteProduct(data[index].id);
     });
   });
-
-  const submitButton = document.getElementById("submit-button");
-  submitButton.addEventListener("click", (event) => {
-    event.preventDefault();
-    addProduct();
-  });
 });
 
 const deleteProduct = (id) => {
@@ -41,7 +41,6 @@ const addProduct = () => {
   const category = document.getElementById("form-category").value;
   const description = document.getElementById("form-description").value;
   const price = parseFloat(document.getElementById("form-price").value);
-  const thumbnail = document.getElementById("form-thumbnail").value;
   const code = document.getElementById("form-code").value;
   const stock = parseInt(document.getElementById("form-stock").value);
 
@@ -52,7 +51,6 @@ const addProduct = () => {
     category &&
     description &&
     price &&
-    thumbnail &&
     code &&
     stock !== undefined
   ) {
@@ -63,13 +61,12 @@ const addProduct = () => {
       category,
       description,
       price,
-      thumbnail,
       code,
       stock,
     };
 
     socket.emit("addProduct", product);
   } else {
-    console.error("Algunos campos del formulario no están definidos.");
+    console.error("Complete all field to upload new product");
   }
 };

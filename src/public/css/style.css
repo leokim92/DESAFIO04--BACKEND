@@ -12,6 +12,7 @@ h1 {
     border: 2px solid black;
     padding: 20px;
     width: 200px;
+    gap: 2px;
   }
   
   form {

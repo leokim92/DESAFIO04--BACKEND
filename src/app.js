@@ -31,7 +31,7 @@ app.use("/api/products", productsRouter);
 app.use("/api/cart", cartRouter);
 
 io.on("connection", async (socket) => {
-    console.log("un cliente se ha conectado");
+    console.log("A client has connected");
 
     const products = await productManager.getProduct();
  
